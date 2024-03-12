@@ -1,0 +1,88 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.firstDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.firstDiv label{
+    display: block;
+    font-weight: 700;
+}
+
+.firstDiv input{
+    font-size: 16px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.checkBoxes{
+    margin: 1.2rem auto;
+    padding: 0.4rem;
+    background-color: aquamarine;
+    color: black;
+    font-weight: 700;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.updateBtn{
+    padding: 0.5rem;
+    font-weight: 600;
+    background-color: rgb(3, 3, 87);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.updateBtn:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.closeBtn{
+    padding: 0.5rem;
+    font-weight: 600;
+    background-color: rgb(141, 3, 3);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.closeBtn:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width : 900px) {
+    .formContainer{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .firstDiv{
+        flex-direction: column;
+    }
+}

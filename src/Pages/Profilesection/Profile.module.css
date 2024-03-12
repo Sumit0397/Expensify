@@ -1,0 +1,154 @@
+.parentConatiner{
+    height: 100vh;
+}
+
+.profileContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+    border: 1px solid black;
+    width: 30vw;
+    border-radius: 10px;
+    background-color: rgb(177, 226, 245);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.profileHeading{
+    margin-bottom: -50px;
+    background-color: rgb(9, 135, 185);
+    color: #fff;
+    width: 30vw;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius:100px;
+    height:max-content;
+}
+
+.profileHeading h1 , p{
+    text-align: center;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25vw;
+    margin: 30px auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formContainer div{
+    width: 20vw;
+}
+
+.formContainer label{
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.formContainer input{
+    width: 20vw;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.formContainer input:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.profileButton{
+    padding: 0.5rem;
+    font-size: 20px;
+    background-color: rgb(9, 135, 185);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 15vw;
+    margin: 1rem;
+}
+
+.profileButton:hover{
+    background-color: rgb(9, 68, 116);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.gender input{
+   width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+    .profileContainer{
+        width: 50vw;
+    }
+
+    .profileHeading{
+        width: 50vw;
+    }
+
+    .formContainer{
+        width: 45vw;
+    }
+
+    .formContainer div{
+        width: 40vw;
+    }
+
+    .formContainer input{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .profileContainer{
+        width: 80vw;
+    }
+
+    .profileHeading{
+        width: 80vw;
+    }
+
+    .formContainer{
+        width: 70vw;
+    }
+
+    .formContainer div{
+        width: 60vw;
+    }
+
+    .formContainer input{
+        width: 60vw;
+    }
+
+    .profileButton{
+        width: 25vw;
+    }
+
+    .parentConatiner{
+        height: 86.6vh;
+    }
+}
+

@@ -1,0 +1,130 @@
+.userProfileContainer{
+    height: 76vh;
+}
+
+.userContainer{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem auto;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    min-height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.userContainer h1{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.usermainsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+}
+
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.userdetails{
+    width: 35vw;
+    padding: 10px;
+}
+
+.userdetails p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profileImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn{
+    padding: 0.8rem;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(9, 83, 219);
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width : 900px) {
+    .usermainsection{
+        flex-direction: column;
+        gap: 2rem;
+        width: 60vw;
+    }
+
+    .userdetails{
+        width: 40vw;
+    }
+
+    .userProfileContainer{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .usermainsection{
+        flex-direction: column;
+        gap: 2rem;
+        width: 70vw;
+    }
+
+    .userdetails{
+        width: 60vw;
+    }
+
+    .userContainer{
+        width: 80vw;
+    }
+
+    .userProfileContainer{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width : 420px) {
+    .usermainsection{
+        flex-direction: column;
+        gap: 2rem;
+        width: 85vw;
+    }
+
+    .userdetails{
+        width: 82vw;
+    }
+
+    .userContainer{
+        width: 90vw;
+    }
+
+    .userProfileContainer{
+        height: 90vh;
+    }
+}
+
+
+

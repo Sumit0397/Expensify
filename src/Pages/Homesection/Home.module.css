@@ -1,0 +1,113 @@
+.homeContainer{
+    min-height: 150vh;
+}
+
+
+.transactionContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    width: 70vw;
+    margin: 2rem auto;
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.transactionForm{
+    width: 40vw;
+}
+
+.pieChart{
+    width: 20vw;
+}
+
+.transactionHistory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .transactionContainer{
+        width: 85vw;
+        gap: 2rem;
+    }
+
+    .transactionForm{
+        width: 50vw;
+    }
+
+    .pieChart{
+        width: 30vw;
+    }
+
+    .transactionHistory{
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .transactionHistory{
+        width: 65vw;
+    }
+}
+
+
+@media screen and (max-width : 420px){
+
+    .transactionContainer{
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .transactionForm{
+        width: 70vw;
+    }
+
+    .pieChart{
+        width: 80vw;
+    }
+
+    .transactionHistory{
+        width: 80vw;
+    }
+
+    .homeContainer{
+        height: 180vh;
+    }
+}
+
+@media screen and (max-width : 768px){
+
+  
+    .transactionContainer{
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .transactionForm{
+        width: 70vw;
+    }
+
+    .pieChart{
+        width: 75vw;
+    }
+
+    .transactionHistory{
+        width: 88vw;
+    }
+
+    .homeContainer{
+        height: 180vh;
+    }
+}

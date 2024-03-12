@@ -1,0 +1,104 @@
+.Navbars {
+    padding-bottom: 20px;
+    position: sticky;
+    top: 10%;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    z-index: 100;
+    border-top: 1px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media screen and (min-width:920px) {
+    .Navbars {
+        display: none;
+    }
+}
+
+.NavbarWrappers {
+    list-style-type: none;
+}
+
+.NavbarElement {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.NavbarElement a{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    border-radius: 20px;
+    transition: 0.5ms;
+}
+
+.linkbtn {
+    text-decoration: none;
+    color: white;
+    background-color: #E93A7D;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.linkbtn:hover {
+    background-color: #c43169;
+}
+
+.Navbutton {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #E93A7D;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    width: 80px;
+    margin: 10px auto;
+    color: #fff;
+}
+
+.theme-button{
+    cursor: pointer;
+}
+
+.toggle-icon{
+    cursor: pointer;
+}
+
+.themeIcon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profilers{
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+.options:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
